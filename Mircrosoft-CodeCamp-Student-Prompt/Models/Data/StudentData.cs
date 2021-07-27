@@ -7,7 +7,7 @@ namespace Mircrosoft_CodeCamp_Student_Prompt.Models.Data
 {
     public class StudentData
     {
-        public List<Student> Students { get; set; }
+        static public List<Student> Students { get; set; }
     }
 }
 //Add methods here
